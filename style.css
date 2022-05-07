@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.skillsIcons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.icon {
+  width: 75px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.screenshot {
+  width: 500px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+#home, #skills, #projects {
+  padding-top: 50px;
+}
