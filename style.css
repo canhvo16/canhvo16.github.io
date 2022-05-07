@@ -17,6 +17,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline;
+  padding-top: 15px;
+  border-top: solid 1px black;
 }
 
 .icon {
@@ -26,7 +28,8 @@
 }
 
 .screenshot {
-  width: 500px;
+  max-width: 40%;
+  height: auto;
 }
 
 .skill {
@@ -47,3 +50,4 @@ a:hover {
 #home, #skills, #projects {
   padding-top: 50px;
 }
+
