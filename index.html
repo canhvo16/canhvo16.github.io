@@ -1,142 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
   <title>Canh Vo</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
+
 <body>
-  <header class="header">
-    <a href="#home"><h4>Home</h4></a>
-    <a href="#skills"><h4>Skills</h4></a>
-    <a href="#projects"><h4>Projects</h4></a>
-  </header>
-  <div id="home">
-    <div>
-      <h1>Canh Vo</h1>
-      <img src="./assets/Headshot.png" alt="canh">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Canh Vo</a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto " href="#work">Projects</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
     </div>
-    <p>
-      I am a Full Stack Software Engineer using skills from my background in hospitality to effectively communicate, lead teams, and keep consistent productivity in a timely manner. I bring a meticulous mindset to solving any complex problems under pressure whether its designing applications or cooking an intricate dish. With my passion for learning, I hope to work on technology that improves the lives around me. 
-    </p>
-  </div>
-  <div id="skills">
-    <h2>Skills</h2>
-    <div class="skill">
-      <h3>Frontend</h3>
-      <div class="skillsIcons">
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/javascript.svg" alt="jsIcon">
-          <p>Javascript</p>
-        </div>
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/html-5.svg" alt="htmlIcon">
-          <p>HTML</p>
-        </div>
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/css-3.svg" alt="cssIcon">
-          <p>CSS</p>
-        </div>
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/nodejs-icon.svg" alt="nodeJsIcon">
-          <p>Node.js</p>
-        </div>
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/react.svg" alt="reactIcon">
-          <p>React</p>
-        </div>
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/redux-logo.png" alt="reactReduxIcon">
-          <p>React Redux</p>
-        </div>
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/vue.svg" alt="vueJsIcon">
-          <p>Vue.js</p>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-color: black">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h1 class="hero-title mb-4">Canh Vo</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Software Engineer, Full Stack Developer"></span></p>
         </div>
       </div>
     </div>
-    <div class="skill">
-      <h3>Backend</h3>
-      <div class="skillsIcons">
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/postgresql.svg" alt="postgresqlIcon">
-          <p>PostgreSQL</p>
+  </div><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img src="assets/img/Headshot.png" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p><span class="title-s">Name: </span> <span>Canh Vo</span></p>
+                        <p><span class="title-s">Profile: </span> <span>Full Stack Software Engineer</span></p>
+                        <p><span class="title-s">Email: </span> <span>canhvo16@gmail.com</span></p>
+                        <p><span class="title-s">Phone: </span> <span>(773) 936-3431</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About me
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      I am a Full Stack Software Engineer using skills from my background in hospitality to effectively communicate, lead teams, and keep consistent productivity in a timely manner. I bring a meticulous mindset to solving any complex problems under pressure whether its designing applications or cooking an intricate dish. With my passion for learning, I hope to work on technology that improves the lives around me.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/mongodb-logo.png" alt="mongodbIcon">
-          <p>MongoDB</p>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Projects
+              </h3>
+              <div class="line-mf"></div>
+            </div>
+          </div>
         </div>
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/express-logo.png" alt="expressIcon">
-          <p>Express</p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="http://myworkoutbud.herokuapp.com/">
+                <div class="work-img">
+                  <img src="assets/projectScreenshots/MyWorkoutBud.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">MyWorkoutBud</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="http://myworkoutbud.herokuapp.com/"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="https://soggyloaf.herokuapp.com/">
+                <div class="work-img">
+                  <img src="assets/projectScreenshots/SoggyLoaf.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">SoggyLoaf</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://soggyloaf.herokuapp.com/"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="https://hobbybuddy-canh.herokuapp.com/">
+                <div class="work-img">
+                  <img src="assets/projectScreenshots/HobbyBuddy.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">HobbyBuddy</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://hobbybuddy-canh.herokuapp.com/"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="https://chunkiemonkie-battle-friend.surge.sh/">
+                <div class="work-img">
+                  <img src="assets/projectScreenshots/Battle-Friend.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Battle Friend</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://chunkiemonkie-battle-friend.surge.sh/"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="https://chunkiemonkie.surge.sh/">
+                <div class="work-img">
+                  <img src="assets/projectScreenshots/Tic-Tac-Toe.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Tic-Tac-Toe</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://chunkiemonkie.surge.sh/"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="https://github.com/vinhnghiemcr/FoodTrucks">
+                <div class="work-img">
+                  <img src="assets/projectScreenshots/FoodTrucks.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">FoodTrucks</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="https://github.com/vinhnghiemcr/FoodTrucks"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/django-icon.svg" alt="djangoIcon">
-          <p>Django</p>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Get in Touch
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
+                        expedita aperiam aliquid at.
+                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
+                        mollitia inventore?
+                      </p>
+                      <ul class="list-ico">
+                        <li><span class="bi bi-geo-alt"></span> Chicago, IL</li>
+                        <li><span class="bi bi-phone"></span> (773) 936-3431</li>
+                        <li><span class="bi bi-envelope"></span> canhvo16@gmail.com</li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="https://github.com/canhvo16"><span class="ico-circle"><i class="bi bi-github"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/canhvo16/"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/python.svg" alt="pythonIcon">
-          <p>Python</p>
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+            <div class="credits">
+              <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+            -->
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="skill">
-      <h3>Other</h3>
-      <div class="skillsIcons">
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/heroku-icon.svg" alt="herokuIcon">
-          <p>Heroku</p>
-        </div>
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/github-icon.svg" alt="githubIcon">
-          <p>Github</p>
-        </div>
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/terminal.svg" alt="terminalIcon">
-          <p>Terminal</p>
-        </div>
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/google-icon.svg" alt="googleIcon">
-          <p>GSuite</p>
-        </div>
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/slack-icon.svg" alt="slackIcon">
-          <p>Slack</p>
-        </div>
-        <div class="skill">
-          <img class="icon" src="./assets/skillsIcon/zoom.png" alt="zoomIcon">
-          <p>Zoom</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="projects">
-    <h2>Projects</h2>
-    <div>
-      <div class="soggyloaf">
-        <h3>SoggyLoaf</h3>
-        <p>Full stack PERN application with custom authentication and full CRUD functionality developed by a team of 3 software engineers. Anyone can use the episode to discover animes but only authenticated users can save animes to a watchlist.</p>
-        <img class="screenshot" src="./assets/projectScreenshots/SoggyLoaf.png" alt="soggyloaf">
-      </div>
-      <div>
-        <h3>HobbyBuddy</h3>
-        <p>Full stack MERN application with full CRUD functionality. Users can set up a profile and make post. In the future this app will allow users to connect with each other discover others with the same hobby in certain areas.</p>
-        <img class="screenshot" src="./assets/projectScreenshots/HobbyBuddy.png" alt="hobbyBuddy">
-      </div>
-      <div>
-        <h3>Battle Friend</h3>
-        <p>A 2 player RPG application built in Vanilla Javascript where friends fight to the death!</p>
-        <img class="screenshot" src="./assets/projectScreenshots/Battle-Friend.png" alt="battleFriend">
-      </div>
-      <div>
-        <h3>Tic Tac Toe</h3>
-        <p>Fully functioning Tic-Tac-Toe game application with a scoreboard and the option to play again.</p>
-        <img class="screenshot" src="./assets/projectScreenshots/Tic-Tac-Toe.png" alt="ticTacToe">
-      </div>
-    </div>
-  </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
